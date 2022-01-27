@@ -21,7 +21,7 @@ export default function Footer() {
                                 <Col sm md={4} xs={4} className="d-flex"><a href="https://www.instagram.com/interioresbrote/" target="_blank" rel="noreferrer"><img className="img-social justify-content-end" src="img/icono-instagram.png"alt=""  /></a></Col>
                                 <Col sm md={4} xs={4} className="d-flex"><a href="https://web.facebook.com/InterioresBrote" target="_blank" rel="noreferrer"><img className="img-social" src="img/icon-facebook.png"alt="" /></a></Col>
                                 <Col sm md={4} xs={4} className="d-flex">
-                                    <a rel="noreferrer" href="https://wa.me/5493885067298?text=Hola chango, me vendes una pizarra..." onclick="ga('send', 'event', 'whatsapp', this.href); return true;" target="_blank">
+                                    <a rel="noreferrer" href="https://wa.me/5493516829415?text=Hola, vengo de la pagina de brote. Quisiera mas informacion..." onclick="ga('send', 'event', 'whatsapp', this.href); return true;" target="_blank">
                                         <img className="img-social" src="img/whatsapp.png"alt="" />
                                     </a>
                                 </Col>
