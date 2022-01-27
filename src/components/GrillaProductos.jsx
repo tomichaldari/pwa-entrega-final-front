@@ -3,6 +3,7 @@ import React from 'react';
 // import Button from 'react-bootstrap/Button'
 import CardProducto from './CardProducto';
 import { Col, Row } from 'react-bootstrap';
+// import { URL_API_BACKEND } from '../utils/consts';
 
 
 const GrillaProductos = () => {
@@ -15,7 +16,7 @@ const GrillaProductos = () => {
   }, [])
 
   const obtenerDatos = async () => {
-    const response = await fetch('http://localhost:4000/api/producto/all')
+    const response = await fetch(process.env.REACT_APP_URL_API+`/api/producto/all`)
 
     const data = await response.json();
 
